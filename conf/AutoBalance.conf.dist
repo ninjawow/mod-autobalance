@@ -95,25 +95,25 @@ AutoBalance.Enable.OtherHeroic=1
 
 ### 5-player dungeons
 AutoBalance.InflectionPoint=0.5
-AutoBalance.InflectionPoint.CurveFloor=0.0
+AutoBalance.InflectionPoint.CurveFloor=0.6
 AutoBalance.InflectionPoint.CurveCeiling=1.0
 AutoBalance.InflectionPoint.BossModifier=1.0
 
 ### 5-player heroic dungeons
 AutoBalance.InflectionPointHeroic=0.5
-AutoBalance.InflectionPointHeroic.CurveFloor=0.0
+AutoBalance.InflectionPointHeroic.CurveFloor=0.6
 AutoBalance.InflectionPointHeroic.CurveCeiling=1.0
 AutoBalance.InflectionPointHeroic.BossModifier=1.0
 
 ### Default for all raids
 AutoBalance.InflectionPointRaid=0.5
-AutoBalance.InflectionPointRaid.CurveFloor=0.0
+AutoBalance.InflectionPointRaid.CurveFloor=0.4
 AutoBalance.InflectionPointRaid.CurveCeiling=1.0
 AutoBalance.InflectionPointRaid.BossModifier=1.0
 
 ### Default for all heroic raids
 AutoBalance.InflectionPointRaidHeroic=0.5
-AutoBalance.InflectionPointRaidHeroic.CurveFloor=0.0
+AutoBalance.InflectionPointRaidHeroic.CurveFloor=0.3
 AutoBalance.InflectionPointRaidHeroic.CurveCeiling=1.0
 AutoBalance.InflectionPointRaidHeroic.BossModifier=1.0
 
@@ -125,14 +125,14 @@ AutoBalance.InflectionPointRaidHeroic.BossModifier=1.0
 
 ### 10-player raids
 AutoBalance.InflectionPointRaid10M=
-AutoBalance.InflectionPointRaid10M.CurveFloor=
-AutoBalance.InflectionPointRaid10M.CurveCeiling=
+AutoBalance.InflectionPointRaid10M.CurveFloor=0.9
+AutoBalance.InflectionPointRaid10M.CurveCeiling=1.0
 AutoBalance.InflectionPointRaid10M.BossModifier=
 
 ### 10-player heroic raids
 AutoBalance.InflectionPointRaid10MHeroic=
-AutoBalance.InflectionPointRaid10MHeroic.CurveFloor=
-AutoBalance.InflectionPointRaid10MHeroic.CurveCeiling=
+AutoBalance.InflectionPointRaid10MHeroic.CurveFloor=0.7
+AutoBalance.InflectionPointRaid10MHeroic.CurveCeiling=1.0
 AutoBalance.InflectionPointRaid10MHeroic.BossModifier=
 
 ### 15-player raids
@@ -252,55 +252,55 @@ AutoBalance.playerCountDifficultyOffset=0
 
 ### 5-player dungeons
 AutoBalance.StatModifier.Global=1.0
-AutoBalance.StatModifier.Health=1.0
-AutoBalance.StatModifier.Mana=1.0
+AutoBalance.StatModifier.Health=1.2
+AutoBalance.StatModifier.Mana=1.2
 AutoBalance.StatModifier.Armor=1.0
 AutoBalance.StatModifier.Damage=1.0
 
 AutoBalance.StatModifier.Boss.Global=1.0
-AutoBalance.StatModifier.Boss.Health=1.0
-AutoBalance.StatModifier.Boss.Mana=1.0
+AutoBalance.StatModifier.Boss.Health=0.5
+AutoBalance.StatModifier.Boss.Mana=0.5
 AutoBalance.StatModifier.Boss.Armor=1.0
 AutoBalance.StatModifier.Boss.Damage=1.0
 
 ### 5-player heroic dungeons
 AutoBalance.StatModifierHeroic.Global=1.0
-AutoBalance.StatModifierHeroic.Health=1.0
-AutoBalance.StatModifierHeroic.Mana=1.0
+AutoBalance.StatModifierHeroic.Health=0.7
+AutoBalance.StatModifierHeroic.Mana=0.7
 AutoBalance.StatModifierHeroic.Armor=1.0
-AutoBalance.StatModifierHeroic.Damage=1.0
+AutoBalance.StatModifierHeroic.Damage=0.8
 
 AutoBalance.StatModifierHeroic.Boss.Global=1.0
-AutoBalance.StatModifierHeroic.Boss.Health=1.0
-AutoBalance.StatModifierHeroic.Boss.Mana=1.0
+AutoBalance.StatModifierHeroic.Boss.Health=0.4
+AutoBalance.StatModifierHeroic.Boss.Mana=0.4
 AutoBalance.StatModifierHeroic.Boss.Armor=1.0
 AutoBalance.StatModifierHeroic.Boss.Damage=1.0
 
 ### Default for all raids
 AutoBalance.StatModifierRaid.Global=1.0
-AutoBalance.StatModifierRaid.Health=1.0
-AutoBalance.StatModifierRaid.Mana=1.0
-AutoBalance.StatModifierRaid.Armor=1.0
-AutoBalance.StatModifierRaid.Damage=1.0
+AutoBalance.StatModifierRaid.Health=0.2
+AutoBalance.StatModifierRaid.Mana=0.2
+AutoBalance.StatModifierRaid.Armor=0.8
+AutoBalance.StatModifierRaid.Damage=0.2
 
 AutoBalance.StatModifierRaid.Boss.Global=1.0
-AutoBalance.StatModifierRaid.Boss.Health=1.0
-AutoBalance.StatModifierRaid.Boss.Mana=1.0
-AutoBalance.StatModifierRaid.Boss.Armor=1.0
-AutoBalance.StatModifierRaid.Boss.Damage=1.0
+AutoBalance.StatModifierRaid.Boss.Health=0.1
+AutoBalance.StatModifierRaid.Boss.Mana=0.1
+AutoBalance.StatModifierRaid.Boss.Armor=1.5
+AutoBalance.StatModifierRaid.Boss.Damage=2.0
 
 ### Default for all heroic raids
 AutoBalance.StatModifierRaidHeroic.Global=1.0
-AutoBalance.StatModifierRaidHeroic.Health=1.0
-AutoBalance.StatModifierRaidHeroic.Mana=1.0
-AutoBalance.StatModifierRaidHeroic.Armor=1.0
-AutoBalance.StatModifierRaidHeroic.Damage=1.0
+AutoBalance.StatModifierRaidHeroic.Health=0.26
+AutoBalance.StatModifierRaidHeroic.Mana=0.26
+AutoBalance.StatModifierRaidHeroic.Armor=1.2
+AutoBalance.StatModifierRaidHeroic.Damage=0.25
 
 AutoBalance.StatModifierRaidHeroic.Boss.Global=1.0
-AutoBalance.StatModifierRaidHeroic.Boss.Health=1.0
-AutoBalance.StatModifierRaidHeroic.Boss.Mana=1.0
-AutoBalance.StatModifierRaidHeroic.Boss.Armor=1.0
-AutoBalance.StatModifierRaidHeroic.Boss.Damage=1.0
+AutoBalance.StatModifierRaidHeroic.Boss.Health=0.1
+AutoBalance.StatModifierRaidHeroic.Boss.Mana=0.1
+AutoBalance.StatModifierRaidHeroic.Boss.Armor=1.5
+AutoBalance.StatModifierRaidHeroic.Boss.Damage=2.0
 
 ###
 ### By default, all instances use the settings configured above. To customize settings for
@@ -313,25 +313,25 @@ AutoBalance.StatModifierRaid10M.Global=
 AutoBalance.StatModifierRaid10M.Health=
 AutoBalance.StatModifierRaid10M.Mana=
 AutoBalance.StatModifierRaid10M.Armor=
-AutoBalance.StatModifierRaid10M.Damage=
+AutoBalance.StatModifierRaid10M.Damage=0.3
 
 AutoBalance.StatModifierRaid10M.Boss.Global=
-AutoBalance.StatModifierRaid10M.Boss.Health=
-AutoBalance.StatModifierRaid10M.Boss.Mana=
+AutoBalance.StatModifierRaid10M.Boss.Health=0.13
+AutoBalance.StatModifierRaid10M.Boss.Mana=0.13
 AutoBalance.StatModifierRaid10M.Boss.Armor=
 AutoBalance.StatModifierRaid10M.Boss.Damage=
 
 ### 10-player heroic raids
 AutoBalance.StatModifierRaid10MHeroic.Global=
-AutoBalance.StatModifierRaid10MHeroic.Health=
-AutoBalance.StatModifierRaid10MHeroic.Mana=
+AutoBalance.StatModifierRaid10MHeroic.Health=0.26
+AutoBalance.StatModifierRaid10MHeroic.Mana=0.26
 AutoBalance.StatModifierRaid10MHeroic.Armor=
-AutoBalance.StatModifierRaid10MHeroic.Damage=
+AutoBalance.StatModifierRaid10MHeroic.Damage=0.38
 
 AutoBalance.StatModifierRaid10MHeroic.Boss.Global=
-AutoBalance.StatModifierRaid10MHeroic.Boss.Health=
-AutoBalance.StatModifierRaid10MHeroic.Boss.Mana=
-AutoBalance.StatModifierRaid10MHeroic.Boss.Armor=
+AutoBalance.StatModifierRaid10MHeroic.Boss.Health=0.13
+AutoBalance.StatModifierRaid10MHeroic.Boss.Mana=0.13
+AutoBalance.StatModifierRaid10MHeroic.Boss.Armor=2.0
 AutoBalance.StatModifierRaid10MHeroic.Boss.Damage=
 
 ### 15-player raids
@@ -362,28 +362,28 @@ AutoBalance.StatModifierRaid20M.Boss.Damage=
 
 ### 25-player raids
 AutoBalance.StatModifierRaid25M.Global=
-AutoBalance.StatModifierRaid25M.Health=
-AutoBalance.StatModifierRaid25M.Mana=
-AutoBalance.StatModifierRaid25M.Armor=
-AutoBalance.StatModifierRaid25M.Damage=
+AutoBalance.StatModifierRaid25M.Health=0.20
+AutoBalance.StatModifierRaid25M.Mana=0.20
+AutoBalance.StatModifierRaid25M.Armor=2.0
+AutoBalance.StatModifierRaid25M.Damage=0.2
 
 AutoBalance.StatModifierRaid25M.Boss.Global=
 AutoBalance.StatModifierRaid25M.Boss.Health=
 AutoBalance.StatModifierRaid25M.Boss.Mana=
-AutoBalance.StatModifierRaid25M.Boss.Armor=
+AutoBalance.StatModifierRaid25M.Boss.Armor=4.0
 AutoBalance.StatModifierRaid25M.Boss.Damage=
 
 ### 25-player heroic raids
 AutoBalance.StatModifierRaid25MHeroic.Global=
-AutoBalance.StatModifierRaid25MHeroic.Health=
-AutoBalance.StatModifierRaid25MHeroic.Mana=
-AutoBalance.StatModifierRaid25MHeroic.Armor=
-AutoBalance.StatModifierRaid25MHeroic.Damage=
+AutoBalance.StatModifierRaid25MHeroic.Health=0.29
+AutoBalance.StatModifierRaid25MHeroic.Mana=0.29
+AutoBalance.StatModifierRaid25MHeroic.Armor=3.0
+AutoBalance.StatModifierRaid25MHeroic.Damage=0.25
 
 AutoBalance.StatModifierRaid25MHeroic.Boss.Global=
-AutoBalance.StatModifierRaid25MHeroic.Boss.Health=
-AutoBalance.StatModifierRaid25MHeroic.Boss.Mana=
-AutoBalance.StatModifierRaid25MHeroic.Boss.Armor=
+AutoBalance.StatModifierRaid25MHeroic.Boss.Health=0.12
+AutoBalance.StatModifierRaid25MHeroic.Boss.Mana=0.12
+AutoBalance.StatModifierRaid25MHeroic.Boss.Armor=6.0
 AutoBalance.StatModifierRaid25MHeroic.Boss.Damage=
 
 ### 40-player raids
@@ -443,20 +443,20 @@ AutoBalance.StatModifierRaid40M.Boss.Damage=
 #
 
 ### 5-player dungeons
-AutoBalance.StatModifier.CCDuration=
-AutoBalance.StatModifier.Boss.CCDuration=
+AutoBalance.StatModifier.CCDuration=0.5
+AutoBalance.StatModifier.Boss.CCDuration=0.5
 
 ### 5-player heroic dungeons
-AutoBalance.StatModifierHeroic.CCDuration=
-AutoBalance.StatModifierHeroic.Boss.CCDuration=
+AutoBalance.StatModifierHeroic.CCDuration=0.5
+AutoBalance.StatModifierHeroic.Boss.CCDuration=0.5
 
 ### Default for all raids
-AutoBalance.StatModifierRaid.CCDuration=
-AutoBalance.StatModifierRaid.Boss.CCDuration=
+AutoBalance.StatModifierRaid.CCDuration=0.5
+AutoBalance.StatModifierRaid.Boss.CCDuration=0.5
 
 ### Default for all heroic raids
-AutoBalance.StatModifierRaidHeroic.CCDuration=
-AutoBalance.StatModifierRaidHeroic.Boss.CCDuration=
+AutoBalance.StatModifierRaidHeroic.CCDuration=0.5
+AutoBalance.StatModifierRaidHeroic.Boss.CCDuration=0.5
 
 ###
 ### Configuring the CCDuration settings above this line will affect all dungeons and raids.
@@ -539,7 +539,7 @@ AutoBalance.StatModifierRaid40M.Boss.CCDuration=
 #        Example: AutoBalance.StatModifier.PerInstance="409 1.0 0.8 0.8 1.0 1.2 1.0, 568 -1 -1 -1 -1 1.35, 43 -1 1.2 1.2"
 #
 #        Default: Empty string, which disables the feature.
-AutoBalance.StatModifier.PerInstance=""
+AutoBalance.StatModifier.PerInstance="724 -1 -1 -1 -1 0.1 -1, 603 -1 0.1 -1 -1 -1 -1, 249 -1 0.1 -1 -1 -1 -1"
 
 #
 #     AutoBalance.StatModifier.Boss.PerInstance
@@ -555,7 +555,7 @@ AutoBalance.StatModifier.PerInstance=""
 #        Example: AutoBalance.StatModifier.Boss.PerInstance="409 1.0 0.8 0.8 1.0 1.2 0.8, 568 -1 -1 -1 -1 1.35, 43 -1 1.2 1.2"
 #
 #        Default: Empty string, which disables the feature.
-AutoBalance.StatModifier.Boss.PerInstance=""
+AutoBalance.StatModifier.Boss.PerInstance="603 -1 0.1 -1 -1 -1 -1, 724 -1 0.07 -1 -1 1.0 -1"
 
 #
 #     AutoBalance.StatModifier.Boss.PerCreature
@@ -567,7 +567,7 @@ AutoBalance.StatModifier.Boss.PerInstance=""
 #        Example: AutoBalance.StatModifier.Boss.PerInstance="14507 1.0 0.8 0.8 1.0 1.2 0.5, 11372 -1 -1 -1 -1 1.35, 43 -1 1.2 1.2"
 #
 #        Default: Empty string, which disables the feature.
-AutoBalance.StatModifier.PerCreature=""
+AutoBalance.StatModifier.PerCreature="32933 -1 0.05 -1 -1 -1 -1, 32934 -1 0.05 -1 -1 -1 -1, 34564 -1 -1 -1 -1 0.5 -1, 34497 -1 0.08 -1 -1 0.6 -1, 34496 -1 0.08 -1 -1 0.6 -1, 36612 -1 -1 -1 -1 0.6 -1, 38135 -1 -1 -1 -1 0.5 -1, 37955 -1 0.06 -1 -1 1.2 -1, 37973 -1 -1 -1 -1 1.0 -1, 37972 -1 -1 -1 -1 1.0 -1, 37970 -1 -1 -1 -1 1.0 -1, 38494 -1 0.1 -1 -1 1.0 -1, 36853 -1 0.09 -1 -1 1.2 -1, 36597 -1 0.09 -1 -1 1.2 -1, 36980 -1 0.1 -1 0.1 1.0 -1, 36855 -1 -1 -1 -1 1.2 -1, 37695 -1 0.1 -1 -1 0.2 -1, 36609 -1 0.05 -1 -1 0.2 -1, 36701 -1 0.05 -1 -1 0.2 -1, 37698 -1 0.05 -1 -1 0.2 -1, 32930 -1 0.1 -1 -1 0.2 -1, 36838 -1 -1 -1 -1 20.0 -1, 33109 -1 -1 -1 -1 20.0 -1, 33060 -1 -1 -1 -1 20.0 -1, 36839 -1 -1 -1 -1 20.0 -1, 35644 -1 4.0 -1 -1 8.0 -1, 36558 -1 4.0 -1 -1 8.0 -1"
 
 #
 #     AutoBalance.MinHPModifier
@@ -645,7 +645,7 @@ AutoBalance.DisabledID="6867"
 #        0 = Disabled
 #        1 = Enabled (only in dungeons/raids)
 #        Default:     1
-AutoBalance.LevelScaling=1
+AutoBalance.LevelScaling=0
 
 #
 #     AutoBalance.LevelScaling.Method
@@ -684,7 +684,7 @@ AutoBalance.LevelScaling.Method="dynamic"
 #
 #        Default: 5
 AutoBalance.LevelScaling.SkipHigherLevels = 3
-AutoBalance.LevelScaling.SkipLowerLevels = 5
+AutoBalance.LevelScaling.SkipLowerLevels = 80
 
 #
 #     AutoBalance.LevelScaling.DynamicLevel.Ceiling.*
@@ -889,7 +889,7 @@ AutoBalance.reward.MinPlayerReward = 1
 #     AutoBalanceAnnounce.enable
 #        Announce the module on login if it is enabled
 #        Default:     1 (1 = ON, 0 = OFF)
-AutoBalanceAnnounce.enable=1
+AutoBalanceAnnounce.enable=0
 
 ##########################
 #
